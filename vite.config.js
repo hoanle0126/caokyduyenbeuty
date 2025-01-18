@@ -11,11 +11,11 @@ export default defineConfig({
         }),
         react(),
     ],
+    base: "/",
     resolve: {
         alias: {
             resources: path.resolve(__dirname, "./resources"),
             icons: path.resolve(__dirname, "./resources/assets/icons"),
         },
     },
-    base: "/",
 });
