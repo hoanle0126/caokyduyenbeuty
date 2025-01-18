@@ -109,8 +109,6 @@ const LandingPage = () => {
                         ))}
                     </Grid2>
                 </Box>
-                <CategorySection />
-                <ProductSection />
             </Box>
         </ClientLayout>
     );
